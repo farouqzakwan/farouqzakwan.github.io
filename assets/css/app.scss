@@ -1,0 +1,64 @@
+$base-color: rgb(15, 15, 15);
+$secondary-base-color:rgba(254, 254, 255, 0.329);
+
+$primary-font-color:rgb(255, 255, 255);
+$secondary-font-color: rgba(8, 184, 31, 0.85);
+
+$radius-size1:15px;
+$radius-size2:25px;
+
+$bg-image1:url(../img/bg-1.png);
+$bg-image2:url(../img/bg-2.png);
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    background-color: $base-color;
+    color: $primary-font-color;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    overflow-x: hidden;
+    #main-section{
+        height: 100vh;
+        #logo{
+            width: 20%;
+        }
+
+        h1{
+            font-family: 'Mr Dafoe', cursive;
+        }
+        h2{
+            color: $secondary-font-color;
+        }
+        #guide{
+            width: 124px;
+        }
+    }
+    #frame-outer{
+        height: 100vh;
+        min-height: 100vh;
+        background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 22%, rgba(0,212,255,1) 100%);
+        #frame{
+            background-color: $secondary-base-color;
+            border-radius: $radius-size1;
+            height: 90vh;
+            min-height: 90vh;
+            // box-shadow: 0 4px 8px 0 $secondary-font-color, 0 6px 20px 0 $secondary-font-color;
+            box-shadow: 0 4px 4px 0 rgba($color: #dedede, $alpha: 0.15), 0 6px 10px 0 rgba($color: #dedede, $alpha: 0.15);
+
+            backdrop-filter: blur(5px);
+            #separator{
+                width: 124px;
+            }
+            .name-separator{
+                width: 80%;
+                // color: $secondary-font-color;
+                background-color: rgba(8, 184, 31, 1);
+                height: 10px;
+                border-radius: $radius-size2;
+            }
+        }
+    }
+}

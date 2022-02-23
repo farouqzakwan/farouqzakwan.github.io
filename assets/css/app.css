@@ -1,0 +1,49 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #0f0f0f;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  overflow-x: hidden;
+}
+body #main-section {
+  height: 100vh;
+}
+body #main-section #logo {
+  width: 20%;
+}
+body #main-section h1 {
+  font-family: "Mr Dafoe", cursive;
+}
+body #main-section h2 {
+  color: rgba(8, 184, 31, 0.85);
+}
+body #main-section #guide {
+  width: 124px;
+}
+body #frame-outer {
+  height: 100vh;
+  min-height: 100vh;
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, #090979 22%, #00d4ff 100%);
+}
+body #frame-outer #frame {
+  background-color: rgba(254, 254, 255, 0.329);
+  border-radius: 15px;
+  height: 90vh;
+  min-height: 90vh;
+  box-shadow: 0 4px 4px 0 rgba(222, 222, 222, 0.15), 0 6px 10px 0 rgba(222, 222, 222, 0.15);
+  backdrop-filter: blur(5px);
+}
+body #frame-outer #frame #separator {
+  width: 124px;
+}
+body #frame-outer #frame .name-separator {
+  width: 80%;
+  background-color: #08b81f;
+  height: 10px;
+  border-radius: 25px;
+}
+
+/*# sourceMappingURL=app.css.map */
